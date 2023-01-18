@@ -6,8 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Luis';
+  name = 'luis ramirez';
   imgURL = 'https://picsum.photos/id/237/500/500';
+  currentDate = new Date();
+  cost = 2000;
+  temperature = 25.3;
+  pizza = {
+    toppings: ['pepperoni', 'bacon'],
+    size: 'large',
+  };
 
   getName() {
     return this.name;
